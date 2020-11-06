@@ -25,11 +25,15 @@ const App = () => {
     })
   }
 
+  // Queries API based on search term entered into form.
+  
   const handleSearch = (event, searchTerm) => {
     event.preventDefault()
     fetchBooks(currentPage, searchTerm)
   } 
 
+  // Queries API based on search term entered into form and page of search results selected.
+  
   const paginate = (event, pageNumber) => {
     event.preventDefault()
     setCurrentPage(pageNumber)
