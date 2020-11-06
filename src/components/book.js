@@ -1,5 +1,7 @@
 import React from "react"
 
+// Component renders individual book details.
+
 const Book = ({book}) => {
 
   return (
