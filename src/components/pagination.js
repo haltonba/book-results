@@ -1,5 +1,7 @@
 import React from 'react'
 
+// Component creates list items representing each page of book results. Dynamically adjusts if less than 200 search results are found.
+
 const Pagination = ({totalBooks, paginate}) => {
 
     const pageNumbers = []
