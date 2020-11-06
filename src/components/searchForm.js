@@ -8,7 +8,7 @@ const SearchForm = ({handleSearch}) => {
         setSearchTerm(event.target.value)
     }
 
-    // Clears form input on submit.
+    // Triggers API query and clears form input on submit.
 
     const handleSearchFormReset = (event) => {
         handleSearch(event, searchTerm)
